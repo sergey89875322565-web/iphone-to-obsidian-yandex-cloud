@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Секреты и окружение
+.env
+secrets/
+
+# Любые JSON (могут содержать ключи), кроме примеров
+*.json
+!*.example.json
+!examples/**
+
+# Локальные временные файлы
+_speechkit_tmp.wav
+tmp/
